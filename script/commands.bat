@@ -6,6 +6,6 @@ oc create deployment tweet-test-deployment --image=docker.io/bezalelshteren/twee
 
 oc expose deployment tweet-test-deployment --port=8004 --name=tweet-test-service
 
-oc expose svc/tweet-test-service --name=sqlserver-route
+oc expose svc/tweet-test-service --name=tweet-test-route
 
 oc get route sqlserver-route
