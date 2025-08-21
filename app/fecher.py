@@ -1,9 +1,9 @@
 import pandas as pd
 import pymongo
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 client = pymongo.MongoClient("mongodb+srv://IRGC:iraniraniran@iranmaldb.gurutam.mongodb.net/")
 print(client)

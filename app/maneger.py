@@ -1,5 +1,5 @@
-from fecher import cech_data
-from prosesor import Prossor
+from app.fecher import cech_data
+from app.prosesor import Prossor
 
 
 class Maneger:
